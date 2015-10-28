@@ -15,4 +15,13 @@ class Fraction
     def -(other)
     end
     
+    def *(other)
+    end
+
+    def /(other)
+    end
+
+    def mcm(x,y)
+	
+
 end
