@@ -22,6 +22,6 @@ class Fraction
     end
 
     def mcm(x,y)
-	
+	end
 
 end

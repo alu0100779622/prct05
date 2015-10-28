@@ -21,4 +21,12 @@ class TestFraction < Test::Unit::TestCase
         assert_equal("-1/15",(@fraction2 - @fraction1).to_s)
     end
     
+    def test_producto
+        assert_equal("2/15",(@fraction1 * @fraction2).to_s)
+    end
+    
+    def test_division
+        assert_equal("6/5",(@fraction1 / @fraction2).to_s)
+    end
+    
 end
